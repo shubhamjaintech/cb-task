@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cb Task2</title>
+    <style>
+*{
+    padding: 20px;
+}
+ol{
+    background-color: lightcyan;
+}
+li{
+    background-color: lightpink;
+}
+
+        li ol {
+            display: none;
+        }
+
+        li:hover ol ol {
+            display: none;
+        }
+
+        li:hover ol {
+            display: block;
+        }
+
+        li ol li:hover>ol {
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <ol>
+        <li>A
+            <ol>
+                <li>a</li>
+                <li>a
+                    <ol>
+                        <li>a</li>
+                    </ol>
+                </li>
+                <li>a</li>
+            </ol>
+        </li>
+
+        <li>B
+            <ol>
+                <li>b
+                    <ol>
+                        <li>b
+                            <ol>
+                                <li>b
+                                    <ol>
+                                        <li>b</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+
+                </li>
+            </ol>
+        </li>
+        <li>
+            C
+        </li>
+
+
+    </ol>
+
+</body>
+
+</html>
