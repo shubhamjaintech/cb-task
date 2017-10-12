@@ -5,76 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cb Task2</title>
     <style>
-*{
-    padding: 20px;
-}
-ol{
-    background-color: lightcyan;
-}
-li{
-    background-color: lightpink;
-}
+        * {
+            padding: 20px;
+        }
 
-        li ol {
+        ol {
+            background-color: lightcyan;
+        }
+
+        li {
+            background-color: lightpink;
+        }
+        ul ul{
             display: none;
         }
 
-        li:hover ol ol {
-            display: none;
-        }
-
-        li:hover ol {
+        li:hover>ul{
             display: block;
+            
         }
-
-         ol li:hover>ol {
-            display: block;
-        }
-
     </style>
 
 </head>
 
 
 <body>
-    <ol>
-        <li>A
-            <ol>
-                <li>a</li>
+    <ul>
+        <li>a
+            <ul>
                 <li>a
-                    <ol>
+                    <ul>
                         <li>a</li>
-                    </ol>
+                    </ul>
                 </li>
-                <li>a</li>
-            </ol>
+            </ul>
         </li>
-
-        <li>B
-            <ol>
-                <li>b
-                    <ol>
-                        <li>b
-                            <ol>
-                                <li>b
-                                    <ol>
-                                        <li>b</li>
-                                    </ol>
-                                </li>
-                            </ol>
-                        </li>
-                    </ol>
-
-                </li>
-            </ol>
-        </li>
-        <li>
-            C
-        </li>
-
-
-    </ol>
-
+        <li>b</li>
+        <li>c</li>
+    </ul>
 </body>
 
 </html>
