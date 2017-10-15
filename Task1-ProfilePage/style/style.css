@@ -115,5 +115,6 @@ a:hover {
 .zoom {
   border-radius: 10%;
   float: left;
-  margin: 59px;
+  margin-left: 95px;
+  margin-top:20px; 
 }
