@@ -4,141 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cb Task1</title>
+    
+    <!-- <script src="https://use.fontawesome.com/48ab992ff0.js"></script> -->
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
-<style>
-    body {
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    #menu {
-        width: 100%;
-        background: #BBCCCF;
-    }
-
-    #menu a {
-        display: block;
-        float: right;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: green;
-        background: greenyellow;
-        border-right: solid 1px #397F63;
-    }
-
-    #about {
-        padding: 200px;
-        background: rgba(28, 168, 63, 0.36);
-        margin: 19px;
-    }
-
-    #portfolio {
-
-        padding: 20px;
-        /* background: rgba(28, 168, 63, 0.36); */
-        margin: 19px;
-    }
-
-    #contact {
-
-        padding: 10px;
-        background: rgba(288, 209, 193, 0.56);
-        margin: 19px;
-        align-content: center;
-    }
-
-    #inputform {
-        background: #f5f5f5;
-        border: none;
-        width: 30%;
-        height: 50px;
-        padding-left: 20px;
-        font-weight: 500;
-        margin-bottom: 24px;
-        border-radius: 0;
-    }
-
-    .img-circle {
-        border-radius: 50%;
-    }
-
-    div>h3 {
-        text-align: center;
-        margin: 0px;
-        padding: 0px;
-        font-size: 30px;
-        color:white;
-    }
-    div>h1 {
-        text-align: center;
-        font-size: 30px;
-        margin: 0px;
-        padding: 0px;
-        color: #133621;
-    }
-</style>
 
 <body>
-
+    <!-- Navigation menu -->
     <nav id="menu">
-        <span><img src="logo.png" height="100px;"></span>
-        <a href="#contact"><span>Contact</span></a>
-        <a href="#portfolio"><span>Portfolio</span></a>
-        <a href="#about"><span>About</span></a>
+        <span><span style="color:red;">SJ</span><img src="img/logo.svg" height="100px;"></span>
+        <span class="m"><a href="#contact">Contact</a></span>
+        <span class="m"> <a href="#portfolio">Portfolio</a></span>
+        <span class="m"><a href="#about">About</a></span>
     </nav>
+
+    <!-- Introduction/About Section -->
     <section id="about">
-        <div>
-            <h3>___ _ ___</h3>
+        <div class="line">
+            ___ _ ___
         </div>
         <div>
-            <span style="float: right">
-                <img class="img-circle" src="pic.jpg" alt="" width="230px;">
-            </span>
-            <p style="font-size: 20;">
-                Hi i am <b>Shubham Jain</b>
-                <br> &nbsp;&nbsp;&nbsp;Student At <i>CodingBlocks</i>
-                <br> On a path to become a Web Developer
-            </p>
+            <span style="float: right;">
+                <img class="img-circle" src="img/pic.jpg" alt="" width="230px;">
+                <div class="social">
+                    <span><a style="color: black" href="https://twitter.com/shubhamj98" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                    <span><a style="color: black" href="https://www.facebook.com/shubham0111" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                    <span><a style="color: black" href="https://www.linkedin.com/in/shubham-jain-683062108/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                    
+                </div>
+
+        </span>
+        <div class="subheading">ABOUT ME</div>
+        <p class="intro">
+            Hi i am <b>Shubham Jain</b>
+            <br> &nbsp;&nbsp;&nbsp;Student At <i>CodingBlocks</i>
+            <br> On a path to become a Web Developer
+        </p>
         </div>
     </section>
-    <div style="text-align: center">
-        <h1>Portfolio</h1>
-    </div>
-    <section>
-        <div id="portfolio" style="margin: 10px;">
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            <div><img src="s.jpg" border="5" style="float: left; margin: 5px;" /></div>
-            
+
+    <section id="portfolio">
+        <div class="subheading" style="text-align: center; background-color:black;">
+            PORTFOLIO
         </div>
-        <p style="padding: 200px;"></p>
+        <div id="project">
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+            <div class="zoom"><img src="img/s.jpg" /></div>
+
     </section>
 
+    <section id="contact">
+        <div class="subheading" style="text-align:center">Send a Message</div>
+        <form action="">
+            <input id="inputform" type="text" placeholder="Your Name" required><br>
+            <input id="inputform" type="email" placeholder="Your Email" required><br>
+            <input id="inputform" type="text" placeholder="Subject"><br>
+            <input id="inputform" type="text" placeholder="Message"><br>
+            <button id="inputform" onclick="myfunction()">Submit</button>
+        </form>
+    </section>
     <section>
+        <footer style="text-align: center ;text-shadow:10px; color: #315555">
+            Made By Arnav Bhaia Student
 
-        <div id="contact">
-            <br>
-            <h2 style="text-align:center">Send a Message</h2>
-            <form action="">
-
-                <input id="inputform" type="text" placeholder="Your Name"><br>
-
-                <input id="inputform" type="email" placeholder="Your Email"><br>
-
-                <input id="inputform" type="text" placeholder="Subject"><br>
-                <input id="inputform" type="text" placeholder="Message"><br>
-                <button id="inputform">Submit</button>
-            </form>
-        </div>
-
+        </footer>
 
     </section>
 
