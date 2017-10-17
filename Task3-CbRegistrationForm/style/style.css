@@ -1,6 +1,9 @@
 *{
   color:#373435;
 }
+.z{
+  margin-top:230px;
+}
 label {
   display: inline-block;
   width: 140px;
@@ -19,7 +22,7 @@ label {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:white;
+  background-color:black;
   overflow-x: hidden;
   padding-top: 20px;
 }
