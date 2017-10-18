@@ -1,8 +1,24 @@
-*{
-  color:#373435;
+* {
+  color: #373435;
 }
-.z{
-  margin-top:230px;
+body {
+  background-color: #f5f5f5;
+}
+.z {
+  margin-top: 230px;
+}
+#nav1 {
+  border-style: solid;
+  border-color: #f15f53;
+  padding: 50px;
+  font-size: 20px;
+  margin: 70px;
+}
+.restnav {
+  border-style: solid;
+  border-color: #f15f53;
+  padding: 30px;
+  margin: 70px;
 }
 label {
   display: inline-block;
@@ -10,9 +26,8 @@ label {
   text-align: right;
   margin: 10px;
 }
-.subhead{
-  font-style:bold;
-
+.subhead {
+  font-style: bold;
 }
 /* The sidenav */
 .sidenav {
@@ -22,7 +37,7 @@ label {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:black;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -37,8 +52,5 @@ label {
   padding: 8px 8px 8px 32px;
   font-size: 25px;
   display: block;
-  transition: 0.3s
+  transition: 0.3s;
 }
-
-
-
