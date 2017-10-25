@@ -1,28 +1,64 @@
-.pad0 {
-  padding: 0px;
-}
-.logo{
-  height: 150px;
-}
-.content{
-  background-color: #F5F5F5;
-  padding: 20px;
-
+body {
+  background-color: rgb(255, 243, 230);
 }
 .box {
-font-size: 12pt;
+  font-size: 12pt;
+  margin: 20px;
 }
-#box1 {
-  height: 40%;
-  background-color: lightblue;
+.box-heading {
+  font-size: 18pt;
+  padding: 10px;
+}
+.card-no {
+  font-size: 40pt;
+  padding: 2px;
 }
 #box2 {
-  height: 200px;
-  background-color: lightpink;
-  /* border: solid black 1px; */
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+#box3 {
+  margin-top:20px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+#box4 {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+#box5 {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
 }
 #mainheading {
-  padding-top: 70px;
   font-size: 30pt;
   text-align: center;
+  background-color: rgb(230, 228, 228);
+}
+
+.course {
+  text-align: center;
+}
+.course .title {
+  height: 50px;
+}
+.course .price {
+  font-size: 30pt;
+  margin-top: 10px;
+}
+.course .nooflecture {
+  font-size: 17px;
+  font-weight: 500;
+}
+.course .subtopics {
+  font-weight: 600;
+}
+.course .mentor {
+  padding: 10px;
+  font-weight: 900;
+  font-style: italic;
+}
+.logo {
+  height: 150px;
 }
