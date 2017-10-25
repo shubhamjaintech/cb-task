@@ -1,0 +1,28 @@
+.pad0 {
+  padding: 0px;
+}
+.logo{
+  height: 150px;
+}
+.content{
+  background-color: #F5F5F5;
+  padding: 20px;
+
+}
+.box {
+font-size: 12pt;
+}
+#box1 {
+  height: 40%;
+  background-color: lightblue;
+}
+#box2 {
+  height: 200px;
+  background-color: lightpink;
+  /* border: solid black 1px; */
+}
+#mainheading {
+  padding-top: 70px;
+  font-size: 30pt;
+  text-align: center;
+}
