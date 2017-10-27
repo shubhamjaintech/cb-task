@@ -14,12 +14,18 @@
 }
 
 #item1 {
-  width: 56%;
+  width: 50%;
+}
+#item2 {
+  width: 37%;
+}
+#item3 {
+  width: 50%;
+}
+#item4 {
+  width: 37%;
 }
 
-#item3 {
-  width: 56%;
-}
 body {
   background-color: rgb(247, 236, 236);
   font-size: 16pt;
@@ -71,8 +77,17 @@ label {
 .logo {
   height: 150px;
 }
-@media (max-width: 1066px) {
+@media (max-width: 766px) {
   #item2 {
     order: 1;
   }
+  #item1 {
+  width:300px; 
+  }#item3 {
+    
+  width:300px;
+   }#item4 {
+     
+  width:300px;
+    }
 }
