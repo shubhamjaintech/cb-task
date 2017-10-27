@@ -1,0 +1,78 @@
+.container {
+  padding: 10px;
+  /* border: 1px solid rgb(231, 216, 216); */
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 400px;
+  height: 500px;
+  /* border: 1px solid rgb(231, 216, 216); */
+  margin: 5px;
+  padding: 15px;
+  background-color: white;
+}
+
+#item1 {
+  width: 56%;
+}
+
+#item3 {
+  width: 56%;
+}
+body {
+  background-color: rgb(247, 236, 236);
+  font-size: 16pt;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  margin: 10px;
+}
+
+.item-heading {
+  font-size: 18pt;
+  padding: 10px;
+}
+.card-no {
+  font-size: 40pt;
+  padding: 2px;
+}
+
+#mainheading {
+  font-size: 30pt;
+  text-align: center;
+  background-color: rgb(230, 228, 228);
+}
+
+.course {
+  text-align: center;
+}
+.course .title {
+  height: 50px;
+}
+.course .price {
+  font-size: 30pt;
+  margin-top: 10px;
+}
+.course .nooflecture {
+  font-size: 17px;
+  font-weight: 500;
+}
+.course .subtopics {
+  font-weight: 600;
+}
+.course .mentor {
+  padding: 10px;
+  font-weight: 900;
+  font-style: italic;
+}
+.logo {
+  height: 150px;
+}
+@media (max-width: 1066px) {
+  #item2 {
+    order: 1;
+  }
+}
